@@ -1,0 +1,576 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+:root {
+    --scale: calc(100vw / 1440);
+  }
+   
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  html{
+    scroll-behavior: smooth;
+}
+
+  ::-webkit-scrollbar{
+    width: 20px;
+    background-color: #102b53;
+}
+ 
+::-webkit-scrollbar-track{
+    background-color: #ffffff
+}
+ 
+::-webkit-scrollbar-thumb{
+    background-color: #102b53;
+}
+                
+
+body{
+    /*background: plum;*/
+    margin: 0;
+    /*background: linear-gradient(180deg, #102b53, #a68cee);*/
+    background: linear-gradient(0deg, #102b53, #a68cee 55%, #102b53 99%);
+    overflow-x: hidden;
+    margin: 0 0;
+
+}
+
+.content{
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 4.125em;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(5px);
+    transition: background-color .3s cubic-bezier(.42, .00, .58, 1.00);
+    border-bottom-style: solid;
+    border-color: #a68cee;
+    z-index: 10;
+
+
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+/*.logo, .home, .navabout-me, .projects, .learning-outcomes{
+    color: white;
+    font-size: 3vw;
+    --font-roboto-mono: 'Roboto Mono';
+
+}
+*/
+
+
+li a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'TAN - MON CHERI';
+
+}
+
+li{
+    list-style: none;
+}
+
+li a:hover{
+    color: #a68cee;
+}
+
+----
+.table-container {
+    border-radius: 15px;
+    padding: 20px;
+    width: 60%;
+    max-width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the element */
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    background-color: #C49FFF;
+    width: 60%;
+
+}
+
+.kop1{
+    
+    display: flex;
+}
+.p{
+    color: white;
+    
+}
+
+.header h2 {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.header span {
+    color: #FFFFFF;
+    
+}
+
+.top{
+ background-color: #A68CEE;
+ color: white;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+thead th {
+    text-align: left;
+    background-color:#FFBFC8;
+    color: #000000;
+    padding: 10px;
+    font-weight: normal;
+    font-family: 'roboto mono';
+    border-color: pink;
+    
+}
+
+tbody td {
+    padding: 10px;
+    background-color: #A68CEE;
+    color: #000000;
+    font-family: 'roboto mono';
+    
+    
+
+}
+
+
+.t4{
+    background-color: #a68cee;
+
+    width: 100%;
+    height: 50px;
+}
+
+tbody tr {
+    border-left: 20px solid;
+    border-right: 20px solid;
+    border-bottom: 8px solid;
+    border-color: #ffc5d3;
+
+}
+
+tbody tr:first-child{
+border-top: none;
+}
+
+tbody tr:last-child {
+    border-bottom: 20px solid;
+    border-left: 20px solid;
+    border-right: 20px solid;
+    border-color: #ffc5d3;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.done {
+    color: #00D084;
+}
+
+.status.ongoing {
+    color: #D08400;
+}
+
+td:last-child {
+    text-align: center;
+}
+---
+
+.rectangle-div {
+    width: 100%;
+    position: relative;
+    height: 80%;
+    background-color: #ffc5d3;
+    padding-left: 5rem ;
+}
+
+
+.mid{
+    background-color: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Zorgt ervoor dat de items onder elkaar komen */
+}
+
+.titel-about-me{
+    color: white;
+    background-color: none;
+    margin-bottom: 0;
+    width: 40%;
+    margin-top: 13rem;
+    font-family: 'TAN - MON CHERI'; 
+}
+   
+
+.about-me{
+    color: white;
+    font-size: 1rem;
+    background-color: none;
+    width: 40%;
+    margin-top: 0;
+    font-family: 'TAN - MON CHERI';
+}
+
+hr{
+   height: 1px; 
+   background-color: #ffffff;
+   border: none;
+   margin: 0;
+}
+
+.rectangle-div1{
+    background-color: #102b53;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rand{
+    background-color: aqua;
+    height: 30px;
+    width: 100%;
+}
+
+.board{
+    background-color: #a68cee;
+    width: 60%;
+    height:80%;
+    display: flex;
+    justify-content: end;
+}
+
+.inboard{
+    background-color: azure;
+    width: 100%;
+    height: 80%;
+    align-self: flex-end;
+    justify-items: end;
+}
+
+.title-project{
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: brown;
+}
+
+.divproject{
+    display: flex;
+    justify-content: center;
+
+}
+
+.div1{
+    background-color: #ffffff;
+    height: 80%;
+    width: 60%;
+    border-radius: 25px;
+    margin: 25px;
+    display: flex;
+ 
+}
+
+
+
+.bovenstuk{
+    display: flex;
+
+    background-color: #eedaf3;
+    border-radius: 25px;
+    width: 60%;
+
+
+ 
+}
+.ul{
+    display: flex;
+}
+
+.naamproject{   
+color: #0040ff;
+text-align: center;
+font-family: 'raleway';
+font-size: 2rem;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.projectcontainer{
+    background-color: #ff00fb;
+    width: 100%;
+    height: 441px;
+    margin-top: 102px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.LO-items a{
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.LO-links{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.divcloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-outcomes{
+    font-family: 'ROBOTO MONO';
+    color: white;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.clouds{
+    background-color: none;
+    width: 70%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.cloud1{
+    background-color: #aaf0d1;
+    width: 31.25rem;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono';
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.cloud1:hover{
+    transform: translateY(-5px);
+
+}
+
+
+.cloud1:nth-child(odd){
+    align-self: flex-end;
+}
+
+.cloud1:nth-child(even){
+    align-self: flex-start;
+}
+
+.btn{
+    background-color: #aaf0d1;
+    width: 31.25rem;
+    height: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 0;
+    outline: none;
+    border: none;
+    position: relative;
+
+}
+
+.btn::after{
+    position: absolute;
+    content:"";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color:#AAF0D1;
+    left: 0;
+    top: 0;
+    border-radius: 20px;
+
+}
+
+.btn::before{
+    content: "";
+    background: linear-gradient(45deg, 
+    #AAF0D1, #a68cee, pink
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    transition: opacity .3s ease-in-out;
+    border-radius: 25px;
+    opacity: 1;
+    animation:glowing 20s linear infinite;
+}
+
+@keyframes glowing{
+    0%{background-position: 0 0;}
+    50%{background-position: 100% 0;}
+    80%{background-position: 100 0;}
+
+}
+
+.btn:hover::before{
+opacity: 1;
+
+}
+
+.btn:active:after{
+    background-color: transparent;
+}
+
+.btn:active{
+    color: white;
+    font-weight: bold;
+}
+
+
+.cloud1::after{
+    content:"";
+    z-index: -1;
+    
+}
+
+
+footer{
+    border-top: #eedaf3;
+    border-top-style: solid;
+    background-color: #102B53;
+
+}
+
+.footerdiv{
+    background-color: none;
+    display: flex;
+    height: 212px;
+    margin-left: 250px;
+    margin-right: 200px;
+
+}
+
+.footer-name{
+    color: white;
+    font-family: 'TAN - MON CHERI';
+    font-size: 25px;
+
+}
+
+.footer-email{
+    color: white;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 15px;
+
+}
+
+
+
+.maildiv{
+    width: 500px;
+}
+
+.pp{
+    display: flex;
+    justify-content:space-around;
+    background-color: none;
+    width: 100%;
+}
+
+.divportfolio{
+
+}
+
+.divprojects{
+    
+}
+
+
+.footer-portfolio{
+    font-family: 'Roboto Mono', monospace; 
+    color: white;
+    font-size: 18px;
+
+}
+
+.footer-projects{
+    font-family: 'Roboto Mono', monospace; 
+    color: white;
+    font-size: 18px;
+}
+
+.list a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace; 
+}
+
+
+.list a:hover{
+    color: #4400ff;
+}
+
