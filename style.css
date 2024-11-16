@@ -84,9 +84,10 @@ body * {
     transition: background-color .3s cubic-bezier(.42, .00, .58, 1.00);
     border-bottom-style: solid;
     border-color: #a68cee;
-    z-index: 10;
+    z-index: 1000;
     padding: 0;
     max-width: 100%;
+    position: relative;
 
 
 }
@@ -227,27 +228,51 @@ tbody tr:last-child {
 
 }
 
+.flights{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
 .flights__content{
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     padding-top:none;
+
 
 }
 
 .flights__heading{
-    font-family: 'ROBOTO MONO';
+    height: 60px;
+    width: 100%;
     background-color: #A68CEE;
-    
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-left: 50px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 800px;
+    display: flex;
+    padding: 20px;
+    padding-left: 40px;
+    color: white;
+    justify-content: space-between;
+    
+}
+
+.flights__heading__title{
+    margin: 0px;
+    font-family: 'ROBOTO MONO';
+
 
 }
+
+h3{
+    margin: 0;
+    margin-left: 40px;
+    line-height: 2;
+    font-family: 'ROBOTO MONO';
+}
+
 .flights__item{
     font-family: 'ROBOTO MONO';
-    margin: 10px;
+    margin-left: 10px;
     padding: 20px;
     height: 3.123rem;
     border-radius: 5px;
@@ -260,6 +285,7 @@ tbody tr:last-child {
     height: 3.123rem;
     border-radius: 5px;
     align-items: center;
+    margin-top: 0;
 }
 .flights__item2{
     font-family: 'ROBOTO MONO';
