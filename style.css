@@ -1,3 +1,6 @@
+body {
+    
+}
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -28,6 +31,12 @@
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
+
+
+
+ 
+    
+
 
   html{
     scroll-behavior: smooth;
@@ -76,6 +85,8 @@ body * {
     border-bottom-style: solid;
     border-color: #a68cee;
     z-index: 10;
+    padding: 0;
+    max-width: 100%;
 
 
 }
@@ -86,7 +97,8 @@ body * {
     justify-content: center;
     align-items:center;
     justify-content: space-between;
-    
+    width: 100%;
+    padding: 0 1em;
 }
 
 /*.logo, .home, .navabout-me, .projects, .learning-outcomes{
@@ -215,8 +227,82 @@ tbody tr:last-child {
 
 }
 
+.flights__content{
+    border-radius: 20px;
+    padding-top:none;
+
+}
+
+.flights__heading{
+    font-family: 'ROBOTO MONO';
+    background-color: #A68CEE;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.flights__item{
+    font-family: 'ROBOTO MONO';
+    margin: 10px;
+    padding: 20px;
+    height: 3.123rem;
+    border-radius: 5px;
+    align-items: center;
+}
+.flights__item1{
+    font-family: 'ROBOTO MONO';
+    background-color: rgba(166, 140, 238, 0.2);    margin: 10px;
+    padding: 20px;
+    height: 3.123rem;
+    border-radius: 5px;
+    align-items: center;
+}
+.flights__item2{
+    font-family: 'ROBOTO MONO';
+    background-color: rgba(166, 140, 238, 0.4);    margin: 10px;
+    padding: 20px;
+    height: 3.123rem;
+    border-radius: 5px;
+    align-items: center;
+}
+.flights__item3{
+    font-family: 'ROBOTO MONO';
+    background-color: rgba(166, 140, 238, 0.6);    margin: 10px;
+    padding: 20px;
+    height: 3.123rem;
+    border-radius: 5px;
+    align-items: center;
+}
+.flights__item4{
+    font-family: 'ROBOTO MONO';
+    background-color: rgba(166, 140, 238, 0.8);    margin: 10px;
+    padding: 20px;
+    height: 3.123rem;
+    border-radius: 5px;
+    align-items: center;
+}
+.flights__item5{
+    font-family: 'ROBOTO MONO';
+    background-color: #A68CEE;
+    margin: 10px;
+    padding: 20px;
+    height: 3.123rem;
+    border-radius: 5px;
+    align-items: center;
+}
 .status {
     font-weight: bold;
+    font-family: 'ROBOTO MONO';
+    
+
+}
+
+.destination{
+    color: #FFFFFF;
 }
 
 .status.done {
@@ -224,7 +310,7 @@ tbody tr:last-child {
 }
 
 .status.ongoing {
-    color: #D08400;
+    color: #d00;
 }
 
 td:last-child {
@@ -238,6 +324,8 @@ td:last-child {
     height: 80%;
     background-color: #ffc5d3;
     padding-left: 5rem ;
+    cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto;
+
 }
 
 
@@ -247,6 +335,8 @@ td:last-child {
     height: 100%;
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat de items onder elkaar komen */
+    cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto;
+
 }
 
 .titel-about-me{
@@ -364,16 +454,27 @@ font-weight: 700;
 
 }
 
-.LO-items a{
+
+
+.LO-items-description a{
     color: #000000;
     text-decoration: none;
     list-style: none;
 
 }
 
-.LO-links{
+.LO-items a{
+    color: #000000;
     text-decoration: none;
     list-style: none;
+    margin-top: 50px;
+
+}
+
+#LO-links, #LO-LINKS{
+    text-decoration: none;
+    list-style: none;
+    color: black;
 
 }
 
@@ -392,25 +493,27 @@ font-weight: 700;
 .clouds{
     background-color: none;
     width: 70%;
-    height: 700px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .cloud1{
-    background-color: #aaf0d1;
+    background-color: rgba(170, 240, 209, 0.52);
+    border: 3px solid #aaf0d1;
     width: 31.25rem;
-    height: 80px;
+    height: 20.813rem;
     border-radius: 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Mono';
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
+  
 }
 
 .cloud1:hover{
@@ -437,10 +540,11 @@ font-weight: 700;
     outline: none;
     border: none;
     position: relative;
+    
 
 }
 
-.btn::after{
+.btn::after, cloud1{
     position: absolute;
     content:"";
     z-index: -1;
@@ -450,6 +554,8 @@ font-weight: 700;
     left: 0;
     top: 0;
     border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease-in-out;
 
 }
 
@@ -469,13 +575,13 @@ font-weight: 700;
     transition: opacity .3s ease-in-out;
     border-radius: 25px;
     opacity: 1;
-    animation:glowing 20s linear infinite;
+    animation:glowing 10s linear infinite;
 }
 
 @keyframes glowing{
     0%{background-position: 0 0;}
     50%{background-position: 100% 0;}
-    80%{background-position: 100 0;}
+    80%{background-position: 100% 0;}
 
 }
 
@@ -591,7 +697,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     background: pink;
 
     padding: 10px;
@@ -606,7 +712,7 @@ footer{
 
 }
 
-.flights__item {
+.flights__item, .flights__item1, .flights__item2, .flights__item3, .flights__item4, .flights__item5 {
     display: flex;
 }
 
@@ -616,28 +722,28 @@ footer{
 }
 
 
-.flights__item span:nth-child(1) {
+.flights__item span:nth-child(1), .flights__item1 span:nth-child(1), .flights__item2 span:nth-child(1), .flights__item3 span:nth-child(1), .flights__item4 span:nth-child(1), .flights__item5 span:nth-child(1){
     flex-basis: 10%;
 }
 
 
-.flights__item span:nth-child(2) {
+.flights__item span:nth-child(2), .flights__item1 span:nth-child(2), .flights__item2 span:nth-child(2), .flights__item3 span:nth-child(2), .flights__item4 span:nth-child(2), .flights__item5 span:nth-child(2){
     flex-basis: 20%;
 }
 
-.flights__item span:nth-child(3) {
+.flights__item span:nth-child(3), .flights__item1 span:nth-child(3), .flights__item2 span:nth-child(3), .flights__item3 span:nth-child(3), .flights__item4 span:nth-child(3), .flights__item5 span:nth-child(3){
     flex-basis: 20%;
 }
 
-.flights__item span:nth-child(4) {
+.flights__item span:nth-child(4), .flights__item1 span:nth-child(4), .flights__item2 span:nth-child(4), .flights__item3 span:nth-child(4), .flights__item4 span:nth-child(4), .flights__item5 span:nth-child(4) {
     flex-basis: 20%;
 }
 
-.flights__item span:nth-child(5) {
+.flights__item span:nth-child(5), .flights__item1 span:nth-child(5), .flights__item2 span:nth-child(5), .flights__item3 span:nth-child(5), .flights__item4 span:nth-child(5), .flights__item5 span:nth-child(5){
     flex-basis: 20%;
 }
 
 
-.flights__item span:nth-child(6) {
+.flights__item span:nth-child(6) .flights__item1 span:nth-child(6), .flights__item2 span:nth-child(6), .flights__item3 span:nth-child(6), .flights__item4 span:nth-child(6), .flights__item5 span:nth-child(6){
     text-align: right;
 }
