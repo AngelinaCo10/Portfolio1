@@ -40,6 +40,7 @@ body {
 
   html{
     scroll-behavior: smooth;
+
 }
 
   ::-webkit-scrollbar{
@@ -58,11 +59,12 @@ body {
 
 body{
     /*background: plum;*/
-    margin: 0;
+    margin: 0px;
     /*background: linear-gradient(180deg, #102b53, #a68cee);*/
     background: linear-gradient(0deg, #102b53, #a68cee 55%, #102b53 99%);
     overflow-x: hidden;
     margin: 0 0;
+
 
 }
 
@@ -71,7 +73,6 @@ body * {
 }
 
 .content{
-
 }
 
 .header{
@@ -97,10 +98,11 @@ body * {
     display: flex;
     justify-content: center;
     align-items:center;
-    justify-content: space-between;
     width: 100%;
-    padding: 0 1em;
+    padding: 0 20%;   
+    
 }
+
 
 /*.logo, .home, .navabout-me, .projects, .learning-outcomes{
     color: white;
@@ -113,10 +115,12 @@ body * {
 
 li a{
     color: white;
-    font-size: 1rem;
     text-decoration: none;
     font-family: 'TAN - MON CHERI';
-
+    font-size: 20px;
+    display: block;
+    width: 250px;
+    line-height: 65px;
 }
 
 li{
@@ -124,7 +128,17 @@ li{
 }
 
 li a:hover{
+   
+}
+
+#navmenu{
+    
+}
+
+#navmenu:hover{
     color: #a68cee;
+    background-color: #f1f1f1;
+
 }
 
 ----
@@ -165,6 +179,12 @@ li a:hover{
 .header span {
     color: #FFFFFF;
     
+}
+
+.arrow{
+font-size: 20px ;
+
+
 }
 
 .top{
@@ -233,10 +253,13 @@ tbody tr:last-child {
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    
 }
 .flights__content{
     border-radius: 0 0 20px 20px;
     padding-top:none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 
 
 }
@@ -251,14 +274,18 @@ tbody tr:last-child {
     display: flex;
     padding: 20px;
     padding-left: 40px;
-    color: white;
+    color: black;
     justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid;
+
     
 }
 
 .flights__heading__title{
     margin: 0px;
     font-family: 'ROBOTO MONO';
+    color: white;
 
 
 }
@@ -268,6 +295,7 @@ h3{
     margin-left: 40px;
     line-height: 2;
     font-family: 'ROBOTO MONO';
+    color: white;
 }
 
 .flights__item{
@@ -329,14 +357,15 @@ h3{
 
 .destination{
     color: #FFFFFF;
+    font-size: large;
 }
 
 .status.done {
-    color: #00D084;
+    color: #ffffff;
 }
 
 .status.ongoing {
-    color: #d00;
+    color: #000000;
 }
 
 td:last-child {
@@ -362,6 +391,7 @@ td:last-child {
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat de items onder elkaar komen */
     cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto;
+    padding: 0 15%;   
 
 }
 
@@ -457,6 +487,7 @@ hr{
 
  
 }
+
 .ul{
     display: flex;
 }
@@ -486,6 +517,7 @@ font-weight: 700;
     color: #000000;
     text-decoration: none;
     list-style: none;
+    margin-top: 20px;
 
 }
 
@@ -501,7 +533,12 @@ font-weight: 700;
     text-decoration: none;
     list-style: none;
     color: black;
+    margin: top 10px;
 
+}
+
+#LO-LINKS1{
+    margin-top: 30px;
 }
 
 .divcloud{
@@ -530,15 +567,21 @@ font-weight: 700;
 .cloud1{
     background-color: rgba(170, 240, 209, 0.52);
     border: 3px solid #aaf0d1;
-    width: 31.25rem;
-    height: 20.813rem;
+    width: 32.25rem;
+    height: 10.813rem;
     border-radius: 20px;
+    display: flex;
     justify-content: center;
-    align-items: center;
     font-family: 'Roboto Mono';
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-shrink: 0;
+    flex-direction: column;
+    text-align: start;
+
   
 }
 
@@ -636,7 +679,8 @@ opacity: 1;
 footer{
     border-top: #eedaf3;
     border-top-style: solid;
-    background-color: #102B53;
+    background-color: #b27627;
+    height: 200px;
 
 }
 
@@ -710,6 +754,14 @@ footer{
     color: #4400ff;
 }
 
+.listFooter{
+    background-color: none;
+}
+
+.listFooter:hover{
+    color: #A68CEE;
+}
+
 
 .flights {
     display: flex;
@@ -773,3 +825,4 @@ footer{
 .flights__item span:nth-child(6) .flights__item1 span:nth-child(6), .flights__item2 span:nth-child(6), .flights__item3 span:nth-child(6), .flights__item4 span:nth-child(6), .flights__item5 span:nth-child(6){
     text-align: right;
 }
+
