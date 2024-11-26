@@ -1,4 +1,22 @@
 
+.content h2{
+    font-size: 24px;
+    font-family: 'Unna';
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 50%;
+}
+
+.moodboard h3{
+    font-size: 1,5rem;
+    font-family: "Unna";
+    font-weight: lighter;
+    padding-left: 20px;
+    color: white;
+    width: 50%;
+}
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -30,12 +48,6 @@
     }
   }
 
-
-
- 
-    
-
-
   html{
     scroll-behavior: smooth;
 
@@ -58,7 +70,8 @@
 body{
     /*background: plum;*/
     /*background: linear-gradient(180deg, #102b53, #a68cee);*/
-    background: linear-gradient(0deg, #102b53, #a68cee 55%, #102b53 99%);
+    background: linear-gradient(180deg, #102B53 0%, #A68CEE 100%);
+
     overflow-x: hidden;
     margin: 0 0;
 }
@@ -68,6 +81,10 @@ body * {
 }
 
 .content{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0 15%;
+    margin-top: 70px;
 }
 
 .header{
@@ -121,7 +138,6 @@ body * {
 
 li{
     list-style: none;
-    
 }
 
 li a:hover{
@@ -256,240 +272,53 @@ li a:hover{
     
 }
 
-.arrow{
-font-size: 20px ;
-}
 
-.dec{
-    text-decoration: none;
-    color: black;
-}
-
-.top{
- background-color: #A68CEE;
- color: white;
-}
-
-table {
-    width: 60%;
-    border-collapse: collapse;
-}
-
-thead th {
-    text-align: left;
-    background-color:#FFBFC8;
-    color: #000000;
-    padding: 10px;
-    font-weight: normal;
-    font-family: 'roboto mono';
-    border-color: pink;
-    
-}
-
-tbody td {
-    padding: 10px;
-    background-color: #A68CEE;
-    color: #000000;
-    font-family: 'roboto mono';
-    
-    
-
-}
-
-
-.t4{
-    background-color: #a68cee;
-
-    width: 100%;
-    height: 50px;
-}
-
-tbody tr {
-    border-left: 20px solid;
-    border-right: 20px solid;
-    border-bottom: 8px solid;
-    border-color: #ffc5d3;
-
-}
-
-tbody tr:first-child{
-border-top: none;
-}
-
-tbody tr:last-child {
-    border-bottom: 20px solid;
-    border-left: 20px solid;
-    border-right: 20px solid;
-    border-color: #ffc5d3;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
-}
-
-.flights{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: column;
-    overflow: visible;
-}
-.flights__content{
-    border-radius: 0 0 20px 20px;
-    padding-top:none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
-
-}
-
-.flights__heading{
-    height: 60px;
-    width: 100%;
-    background-color: #A68CEE;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 800px;
-    display: flex;
-    padding: 20px;
-    padding-left: 40px;
-    color: black;
-    justify-content: space-between;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-bottom: 1px solid;
-
-    
-}
-
-.flights__heading__title{
-    margin: 0px;
-    font-family: 'ROBOTO MONO';
-    color: white;
-
-
-}
-
-h3{
-    margin: 0;
-    line-height: 2;
-    font-family: 'ROBOTO MONO';
-    color: white;
-}
-
-.flights__item{
-    font-family: 'ROBOTO MONO';
-    margin-left: 10px;
-    padding: 20px;
-    height: 3.123rem;
-    border-radius: 5px;
-    align-items: center;
-}
-.flights__item1{
-    font-family: 'ROBOTO MONO';
-    background-color: rgba(166, 140, 238, 0.2);    margin: 10px;
-    padding: 20px;
-    height: 3.123rem;
-    border-radius: 5px;
-    align-items: center;
-    margin-top: 0;
-}
-.flights__item2{
-    font-family: 'ROBOTO MONO';
-    background-color: rgba(166, 140, 238, 0.4);    margin: 10px;
-    padding: 20px;
-    height: 3.123rem;
-    border-radius: 5px;
-    align-items: center;
-}
-.flights__item3{
-    font-family: 'ROBOTO MONO';
-    background-color: rgba(166, 140, 238, 0.6);    margin: 10px;
-    padding: 20px;
-    height: 3.123rem;
-    border-radius: 5px;
-    align-items: center;
-}
-.flights__item4{
-    font-family: 'ROBOTO MONO';
-    background-color: rgba(166, 140, 238, 0.8);    margin: 10px;
-    padding: 20px;
-    height: 3.123rem;
-    border-radius: 5px;
-    align-items: center;
-}
-.flights__item5{
-    font-family: 'ROBOTO MONO';
-    background-color: #A68CEE;
-    margin: 10px;
-    padding: 20px;
-    height: 3.123rem;
-    border-radius: 5px;
-    align-items: center;
-}
-.status {
-    font-weight: bold;
-    font-family: 'ROBOTO MONO';
-    
-
-}
-
-.destination{
-    color: #FFFFFF;
-    font-size: large;
-}
-
-.status.done {
-    color: #ffffff;
-}
-
-.status.ongoing {
-    color: #000000;
-}
-
-td:last-child {
-    text-align: center;
-}
 ---
 
 .rectangle-div {
     width: 100%;
-    position: relative;
-    height: 80%;
     background-color: #ffc5d3;
-    padding-left: 5rem ;
+    padding-left: 5rem;
     cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto;
-
 }
 
-
-.mid{
-    background-color: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column; /* Zorgt ervoor dat de items onder elkaar komen */
-    cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto;
-    padding: 0 15%;   
+.mid {
+    display: inline-block; /* Zorgt ervoor dat de .mid div naast de afbeelding komt */
+    vertical-align: top; /* Zorgt ervoor dat de tekst verticaal uitgelijnd is boven de afbeelding */
+    width: 60%; /* Geeft de tekst een breedte van 60% */
+    padding: 0 15%;
 }
 
-.titel-about-me{
+.rectangle-div img {
+    display: inline-block; /* Zorgt ervoor dat de afbeelding inline met de tekst komt */
+    max-width: 300px;
+    height: auto;
+    margin-left: 20px; /* Ruimte tussen tekst en afbeelding */
+    margin-top: 150px;
+}
+
+.venemanlogo {
+    height: auto;
+}
+
+.titel-about-me {
     color: white;
-    background-color: none;
     margin-bottom: 0;
-    width: 40%;
+    font-family: 'Unna';
+    font-size: 2.5rem;
     margin-top: 13rem;
-    font-family: 'TAN - MON CHERI'; 
+    font-weight: bold;
 }
-   
 
-.about-me{
+.about-me {
     color: white;
     font-size: 1.2rem;
     background-color: none;
-    width: 60%;
-    margin-top: 0;
+    margin-top: 10;
     font-family: 'Unna';
     font-weight: lighter;
 }
+
 
 hr{
    height: 1px; 
@@ -503,9 +332,13 @@ hr{
     height: 700px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
+
+.rectangle-div1
 
 .rand{
     background-color: aqua;
@@ -873,3 +706,25 @@ footer{
     text-align: right;
 }
 
+.moodboard, .logos, .brandguide, .posters, .reflectie{
+    height: 20.6875rem;
+    flex-shrink: 0;
+    background-color: rgba(217, 217, 217, 0.10);
+    border-radius: 20px;
+    margin-bottom: 20px; 
+    font-weight: lighter;   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.moodboard:hover{
+    background-color: rgba(255, 197, 214, 0.60);
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-5px);
+
+}
+
+.reflectie:hover{
+    background-color: rgba(35, 189, 192, 0.6);
+    ;
+}
