@@ -58,7 +58,7 @@
 body{
     /*background: plum;*/
     /*background: linear-gradient(180deg, #102b53, #a68cee);*/
-    background: linear-gradient(0deg, #102b53, #a68cee 55%, #102b53 99%);
+    background: linear-gradient(180deg, #102B53 0%, #A68CEE 100%);
     overflow-x: hidden;
     margin: 0 0;
 }
