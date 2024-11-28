@@ -8,7 +8,7 @@
     width: 50%;
 }
 
-.moodboard h3{
+.moodboard h3, .reflectie h3{
     font-size: 1,5rem;
     font-family: "Unna";
     font-weight: lighter;
@@ -148,19 +148,21 @@ li a:hover{
 .navmenu, .dropbtn{
     color: white;
     text-decoration: none;
-    font-family: "Craftern";
+    font-family: "Unna";
     font-size: 20px;
     display: block;
     width: 160px;
     line-height: 65px;
     padding-left: 10px;
+    padding-right: 10px;
+
     
 }
 
 .navmenu_lo{
     color: white;
     text-decoration: none;
-    font-family: "Craftern";
+    font-family: "Unna";
     font-size: 20px;
     display: block;
     width: 200px;
@@ -197,6 +199,8 @@ li a:hover{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
+
 }
 
 .dropdown-content a {
@@ -229,7 +233,7 @@ li a:hover{
   
 
 .drop{
-    font-family: "Craftern";
+    font-family: "Unna";
     font-weight: bold;
 }
   
@@ -307,7 +311,7 @@ li a:hover{
 .titel-about-me {
     color: white;
     margin-bottom: 0;
-    font-family: 'Unna';
+    font-family: 'unna';
     font-size: 2.5rem;
     margin-top: 13rem;
     font-weight: bold;
@@ -318,7 +322,7 @@ li a:hover{
     font-size: 1.2rem;
     background-color: none;
     margin-top: 10;
-    font-family: 'Unna';
+    font-family: 'unna';
     font-weight: lighter;
 }
 
@@ -477,6 +481,8 @@ body {
     color: #fff;
     display: flex;
     min-height: 100vh;
+    cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto;
+
   }
 
   .section_cards{
@@ -708,7 +714,6 @@ footer{
 }
 
 .moodboard, .logos, .brandguide, .posters, .reflectie{
-    height: 20.6875rem;
     flex-shrink: 0;
     background-color: rgba(217, 217, 217, 0.10);
     border-radius: 20px;
@@ -717,7 +722,6 @@ footer{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     box-sizing: border-box; 
     overflow: hidden;
-
 
 }
 
@@ -735,8 +739,6 @@ footer{
 .contentMoodboard img{
     width: 300px;
     height: 300px;
-    margin-top: -60px;
-    margin-left: 100px;
 }
 
 
@@ -746,15 +748,93 @@ footer{
     ;
 }
 
-.next{
-    float: right;
-    border-radius: 0.625rem;
-    width: 16.375rem;
-    height: 3.6875rem;
-    flex-shrink: 0;
-    background: rgba(255, 197, 211, 0.74);
-    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    margin-right: 15%;
+
+.show{
+    background-color: #ddd;
+
+}
+
+.fotobrandguide{
+    height: 250px;
+    margin-left: 20px;
+}
+
+/* slideshow */
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 600px;
+    overflow: hidden;
+    margin-left: 50px;
+
+}
+
+/* Slides */
+.slide {
+    display: none; /* Verberg slides standaard */
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide img {
+    border-radius: 5px; /* Optioneel: afgeronde hoeken */
+    justify-self: center;
+    align-self: center;
+    padding-left: 40px;
+    margin-left: 40px;
+}
+
+/* Navigatieknoppen */
+.prev, .next {
     cursor: pointer;
-    text-decoration: none;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    user-select: none;
+}
+.arrows{
+    display: flex;
+
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Paginering */
+.dots-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #717171;
 }
