@@ -4,17 +4,18 @@
     font-family: 'Unna';
     color: white;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
 
 }
 
 .kader h3{
-    font-size: 1,5rem;
+    font-size: 1.2em;
     font-family: "Unna";
     font-weight: lighter;
-    padding-left: 20px;
     color: white;
     width: 60%;
+    padding: 0 30px;
 }
 
 .evidence-list{
@@ -159,7 +160,7 @@ li a:hover{
     color: white;
     text-decoration: none;
     font-family: "Unna";
-    font-size: 20px;
+    font-size: 25px;
     display: block;
     width: 160px;
     line-height: 65px;
@@ -171,9 +172,9 @@ li a:hover{
     color: white;
     text-decoration: none;
     font-family: "Unna";
-    font-size: 20px;
+    font-size: 25px;
     display: block;
-    width: 200px;
+    width: 210px;
     line-height: 65px;
     padding-left: 10px;
 
@@ -697,9 +698,9 @@ footer{
 
 .pp{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color: none;
-    width: 100%;
+    width: 60%;
 }
 
 .divportfolio{
@@ -823,7 +824,7 @@ footer{
     font-weight: lighter;  
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out;
- 
+ margin-bottom: 4em;
 }
 
 .kader:hover{
@@ -833,3 +834,8 @@ footer{
     transition: background-color 0.5s ease, color 0.3s ease; 
 
 }
+
+#sectionlo1, #sectionlo2, #sectionlo3, #sectionlo4, #sectionlo5{
+    scroll-margin-top: 5.125em;
+}
+

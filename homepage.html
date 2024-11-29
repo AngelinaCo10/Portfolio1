@@ -14,6 +14,10 @@
 </head>
 
 <body>
+    <div class="image">
+        <img src="images/plane-semi-flat-b2d996.webp" alt="Zwarte vliegtuig" width="150px" height="150px">
+
+    </div>
 
     <div class="content">
         <div class="header">
@@ -23,7 +27,7 @@
                 <li><a href="" class="navmenu">About Me</a></li>
 
                 <div class="dropdown">
-                    <li><a href="" class="dropbtn">Projects</a></li>
+                    <li><a href="#section2" class="dropbtn">Projects</a></li>
                     <div class="dropdown-content">
                         <a href="FastForward.html" class="drop">Fast Forward</a>
                         <a href="Branding.html" class="drop">Veneman en de Groot</a>
@@ -32,7 +36,7 @@
                         <a href="Myotherprojects.html" class="drop">My other projects</a>
                     </div>
                 </div>
-                <li><a href="LearningOutcomes.html" class="navmenu_lo">learning outcomes</a></li>
+                <li><a href="#lijn1" class="navmenu_lo">learning outcomes</a></li>
 
 
 
@@ -43,7 +47,7 @@
                 class="navabout-me">About me</div>
                 <div class="projects">Projects</div>
                 <div class="learning-outcomes">learning outcomes</div>
-            -->
+                -->
 
             </div>
         </div>
@@ -61,23 +65,24 @@
                 <div class="x3">
                     <div class="cloud"></div>
                 </div>
-            
+
                 <div class="x4">
                     <div class="cloud"></div>
                 </div>
-            
+
                 <div class="x5">
                     <div class="cloud"></div>
                 </div>
+
             </div>
-        
+
 
         </div>
-        
+
 
     </div>
 
-    <section class="flights">
+    <section class="flights" id="section2">
 
         <div class="flights__heading">
             <h2 class="flights__heading__title">Projects</h2>
@@ -119,7 +124,7 @@
                     <span class="Destination">Fix-that-UX</span>
                     <span>KL523</span>
                     <span>C3</span>
-                    <span class="status ongoing">Ongoing</span>
+                    <span class="status done">Done</span>
                     <span class="arrow">
                         <a href="Fix-that-UX.html" class="dec">&#129062;</a>
                     </span>
@@ -150,46 +155,67 @@
     </section>
 
     <!-- Learing outcomes -->
+    <div class="titlelo" id="lijn1">
+        <h1>Learning outcomes</h1>
+    </div>
 
-    <div class="section_cards">
-        <div class="container">
+    <div class="section_cards" id="section3">
         
-            <a href="LearningOutcomes.html">
+        <div class="container">
+            
+
+            <a href="LearningOutcomes.html#sectionlo1">
                 <div class="card">
-                    <h2>LO1: Interactive media products</h2>
+                    <h2>Learning outcome 1: Interactive media products</h2>
                     <p>You orient in the relevant tech, media and design landscape and create interactive media products
                         that you have tested with users and stakeholders.</p>
                 </div>
             </a>
 
-            <div class="card">
-                <h2>Learning outcome 2: Development and Version control
-                </h2>
-                <p>You explore front-end development languages, you write code and document in a version control environment.</p>
-            </div>
-            <div class="card">
-                <h2>Learning outcome 3: Iterative design</h2>
-                <p>You explore and use professional design tools and you iteratively design visual works.</p>
-            </div>
+            <a href="LearningOutcomes.html#sectionlo3">
+                <div class="card">
+                    <h2>Learning outcome 3: Iterative design</h2>
+                    <p>You explore and use professional design tools and you iteratively design visual works.</p>
+
+                </div>
+            </a>
+            <a href="LearningOutcomes.html#sectionlo5">
+                <div class="card">
+                    <h2>Learning outcome 5: Personal Leadership</h2>
+                    <p>You take the initiative in asking for, and reflecting on, feedback. You identify your own core
+                        values as the basis for your study career and professional development.</p>
+
+                </div>
+            </a>
 
         </div>
-        <div class="container2">
+        <a href="LearningOutcomes.html#sectionlo2">
+            <div class="container2">
+                <div class="card2">
+                    <h2>Learning outcome 2: Development and Version control
+                    </h2>
+                    <p>You explore front-end development languages, you write code and document in a version control
+                        environment.</p>
+
+                </div>
+        </a>
+
+        <a href="LearningOutcomes.html#sectionlo4">
             <div class="card2">
                 <h2>Learning outcome 4: Professional standard</h2>
-                <p>You apply professional practice, both individually and in teams, in the areas of project organisation, communication with stakeholders, exploratory research, and reporting.</p>
+                <p>You apply professional practice, both individually and in teams, in the areas of project
+                    organisation, communication with stakeholders, exploratory research, and reporting.</p>
+
             </div>
-            <div class="card2">
-                <h2>Learning outcome 5: Personal Leadership</h2>
-                <p>You take the initiative in asking for, and reflecting on, feedback. You identify your own core values as the basis for your study career and professional development.</p>
-            </div>
-        </div>
+        </a>
+    </div>
     </div>
 
     <footer>
         <div class="footerdiv">
             <div class="maildiv">
                 <h1 class="footer-name">Angelina Coffie</h1>
-                <h3 class="footer-email">537166@student.fontys.nl</h3>
+                <h3 class="footer-email">a.coffie@student.fontys.nl</h3>
             </div>
             <div class="pp">
                 <div class="divportfolio">
@@ -215,9 +241,8 @@
     </footer>
 
 
-
-
     <script src="script.js"></script>
+    <script src="mousefollow.js"></script>
 
 </body>
 

@@ -8,7 +8,7 @@
     width: 50%;
 }
 
-.moodboard h3, .reflectie h3{
+.kader h3, .reflectie h3{
     font-size: 1,5rem;
     font-family: "Unna";
     font-weight: lighter;
@@ -149,7 +149,7 @@ li a:hover{
     color: white;
     text-decoration: none;
     font-family: "Unna";
-    font-size: 20px;
+    font-size: 25px;
     display: block;
     width: 160px;
     line-height: 65px;
@@ -163,9 +163,9 @@ li a:hover{
     color: white;
     text-decoration: none;
     font-family: "Unna";
-    font-size: 20px;
+    font-size: 25px;
     display: block;
-    width: 200px;
+    width: 210px;
     line-height: 65px;
     padding-left: 10px;
 
@@ -595,9 +595,9 @@ footer{
 
 .pp{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color: none;
-    width: 100%;
+    width: 60%;
 }
 
 .divportfolio{
@@ -713,7 +713,7 @@ footer{
     text-align: right;
 }
 
-.moodboard, .logos, .brandguide, .posters, .reflectie{
+.kader, .logos, .brandguide, .posters, .reflectie{
     flex-shrink: 0;
     background-color: rgba(217, 217, 217, 0.10);
     border-radius: 20px;
@@ -725,22 +725,28 @@ footer{
 
 }
 
-.moodboard:hover{
-    background-color: rgba(255, 197, 214, 0.60);
+.kader:hover{
+    /* background-color: rgba(255, 197, 214, 0.60); */
     transition: transform 0.5s ease-in-out;
     transform: translateY(-5px);
 
 }
 
 .contentMoodboard{
-    display: flex;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .contentMoodboard img{
-    width: 300px;
-    height: 300px;
+
 }
 
+.inhoud{
+    display: flex;
+    background-color: #ddd;
+    flex-direction: row;
+}
 
 
 .reflectie:hover{
@@ -750,7 +756,7 @@ footer{
 
 
 .show{
-    background-color: #ddd;
+
 
 }
 
@@ -766,6 +772,9 @@ footer{
     max-width: 600px;
     overflow: hidden;
     margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 

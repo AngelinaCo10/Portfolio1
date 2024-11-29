@@ -1,6 +1,8 @@
 
 
-// slideshow
+
+
+
 let slideIndex = 0; // Huidige slide-index
 
 function showSlides(index) {
@@ -36,5 +38,3 @@ function currentSlide(n) {
 
 // Initialiseer de slideshow
 showSlides(slideIndex);
-
-
