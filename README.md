@@ -59,8 +59,6 @@ Portfolio Website semester 2
 
 In dit portfolio zul je lezen over de projecten die ik heb gedaan en de leeruitkomsten. Ik laat hierbij ook wat foto's zien van wat ik heb gemaakt. In mijn projecten zal ik linkjes hebben die pdf's zullen openen waar mijn werk ook in staat.
 
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
 ## Badges
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
@@ -87,6 +85,7 @@ If you have ideas for releases in the future, it is a good idea to list them in 
 Ik sta open voor feedback en suggesties. Onderstaande heb ik op een rijtje gezet welke css bij de html horen. 
 
 De CSS voor homepage is style.css
+
 HTML: Homepage.html > CCS: style.css
 
 De CSS voor de project pagina's is projects.css
