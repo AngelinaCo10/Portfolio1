@@ -1,9 +1,9 @@
 # Angelina Coffie
 
-## Add your files
+## Voeg uw bestanden toe
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- [ ] [Maak](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) of [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) bestanden
+- [ ] [Voeg bestanden toe via de opdrachtregel](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) of push een bestaande Git-repository met de volgende opdracht:
 
 ```
 cd existing_repo
@@ -19,7 +19,7 @@ Portfolio Website semester 2
 
 In dit portfolio zul je lezen over de projecten die ik heb gedaan en de leeruitkomsten. Ik laat hierbij ook wat foto's zien van wat ik heb gemaakt. In mijn projecten zal ik linkjes hebben die pdf's zullen openen waar mijn werk ook in staat.
 
-## Overview
+## Overzicht
 
 Mijn portfolio bevat het volgende:
 - Homepagina : Landingspagina met een stukje overmezelf. Projecten en leeruitkomsten zijn ook                 daar te vinden. Je kunt op ze klikken om naar de pagina's te gaan.
