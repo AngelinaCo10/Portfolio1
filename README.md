@@ -49,6 +49,7 @@ De CSS voor homepage is style.css
 HTML: Homepage.html > CCS: style.css
 
 De CSS voor de project pagina's is projects.css
+
 HTML:             >  CSS: Projects.css
 FastForward.html  
 Branding.html
