@@ -46,18 +46,28 @@ Ik sta open voor feedback en suggesties. Onderstaande heb ik op een rijtje gezet
 
 De CSS voor homepage is style.css
 
+
 HTML: Homepage.html > CCS: style.css
+<br><br>
+
 
 De CSS voor de project pagina's is projects.css
 
 HTML: FastForward.html  
+
 Branding.html
+
 Fix-that-UX.html
+
 Myotherprojects.html          >  CSS: Projects.css
 
 
+<br>
 De CSS voor LearningOutcomes is lo.css
+
 HTML: LearningOutcomes.html > CSS: lo.css
+
+<br>
 
 Voor het openen van de browser gebruik ik Live Server.
 
