@@ -1,4 +1,4 @@
-# Angelina
+# Angelina Coffie
 
 ## Add your files
 
@@ -12,10 +12,10 @@ git branch -M main
 git push -uf origin main
 ```
 
-## Name
+## Naam
 Portfolio Website semester 2
 
-## Description
+## Beschrijving
 
 In dit portfolio zul je lezen over de projecten die ik heb gedaan en de leeruitkomsten. Ik laat hierbij ook wat foto's zien van wat ik heb gemaakt. In mijn projecten zal ik linkjes hebben die pdf's zullen openen waar mijn werk ook in staat.
 
@@ -28,7 +28,7 @@ Mijn portfolio bevat het volgende:
 - Projecten :  Ik leg het proces van de projecten uit en link naar mijn werk.
 - Leeruitkomsten : De leeruitkomsten met reflectie.
 
-## Installation
+## Installatie
 1. Clone of download dit project met: https://github.com/AngelinaCo10/Portfolio1.git
 2. Have a modern browser (Chrome, Firedox, Avast Secure Browser).
 3. Open "Homepage.html" in the browser to view the website.
@@ -38,7 +38,7 @@ Mijn portfolio bevat het volgende:
 - Navigeer door de verschillende secties: Over mij, Projecten en Leeruitkomsten.
 - Klik op de linkjes om meer te zien van mijn ontwerpen (dit volgt nog).
 
-## Support
+## Contact
 Als je contact wilt opnemen, kun je mij bereiken op mijn school email adres a.coffie@student.fontys.nl
 
 ## Feedback
@@ -60,7 +60,6 @@ HTML: LearningOutcomes.html > CSS: lo.css
 
 Voor het openen van de browser gebruik ik Live Server.
 
-## Authors and acknowledgment
-Angelina Coffie
+
 
 
