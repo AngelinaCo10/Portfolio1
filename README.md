@@ -50,11 +50,11 @@ HTML: Homepage.html > CCS: style.css
 
 De CSS voor de project pagina's is projects.css
 
-HTML:             >  CSS: Projects.css
-FastForward.html  
+HTML: FastForward.html  
 Branding.html
 Fix-that-UX.html
-Myotherprojects.html
+Myotherprojects.html          >  CSS: Projects.css
+
 
 De CSS voor LearningOutcomes is lo.css
 HTML: LearningOutcomes.html > CSS: lo.css
