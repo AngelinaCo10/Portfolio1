@@ -66,7 +66,7 @@ body{
 }
 
 a, button{
-    cursor: url(https://cdn.custom-cursor.com/db/15051/starter-northern-lights-pointer.png) 4 4, pointer;
+    cursor: url(https://cdn.custom-cursor.com/db/15051/starter-northern-lights-pointer.png) 16 16, pointer;
 
 }
 body * {
@@ -85,7 +85,7 @@ body * {
     backdrop-filter: blur(5px);
     transition: background-color .3s cubic-bezier(.42, .00, .58, 1.00);
     border-bottom-style: solid;
-    border-color: #a68cee;
+    border-color: transparent;
     z-index: 99999;
     padding: 0;
     max-width: 100%;
@@ -103,7 +103,7 @@ body * {
     justify-content: space-between;
     position: sticky;
     z-index: 99999;
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -144,7 +144,7 @@ li a:hover{
     width: 160px;
     line-height: 65px;
     padding-left: 10px;
-    
+        
     
 }
 

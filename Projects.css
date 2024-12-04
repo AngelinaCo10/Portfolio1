@@ -1,18 +1,31 @@
+img{
+    height: 250px;
+}
+
 
 .content h2{
     font-size: 24px;
     font-family: 'Unna';
     color: white;
-    padding-left: 20px;
-    padding-top: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
     width: 50%;
+
 }
 
 .kader h3, .reflectie h3{
-    font-size: 1,5rem;
+    font-size: 1rem;
     font-family: "Unna";
     font-weight: lighter;
-    padding-left: 20px;
+    padding-left: 30px;
+    color: white;
+    width: 60%;
+}
+
+.kader p{
+    font-size: 1.1rem;
+    font-family: "Unna";
+    font-weight: bold;
     color: white;
     width: 50%;
 }
@@ -63,7 +76,7 @@
 }
  
 ::-webkit-scrollbar-thumb{
-    background-color: #102b53;
+    background-color: #A68CEE;
 }
                 
 
@@ -84,7 +97,7 @@ body * {
 .content{
     max-height: 100%;
     max-width: 100%;
-    padding: 0 15%;
+    padding: 0 10%;
     margin-top: 70px;
 }
 
@@ -97,7 +110,7 @@ body * {
     backdrop-filter: blur(5px);
     transition: background-color .3s cubic-bezier(.42, .00, .58, 1.00);
     border-bottom-style: solid;
-    border-color: #a68cee;
+    border-color: transparent;
     z-index: 99999;
     padding: 0;
     max-width: 100%;
@@ -110,11 +123,11 @@ body * {
     justify-content: center;
     align-items:center;
     width: 100%;
-    padding: 0 15%;   
+    padding: 0 10%;   
     justify-content: space-between;
     position: sticky;
     z-index: 99999;
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -291,7 +304,7 @@ li a:hover{
     display: inline-block; /* Zorgt ervoor dat de .mid div naast de afbeelding komt */
     vertical-align: top; /* Zorgt ervoor dat de tekst verticaal uitgelijnd is boven de afbeelding */
     width: 60%; /* Geeft de tekst een breedte van 60% */
-    padding: 0 15%;
+    padding: 0 10%;
 }
 
 .rectangle-div img {
@@ -721,8 +734,8 @@ footer{
     font-weight: lighter;   
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     box-sizing: border-box; 
-    overflow: hidden;
 
+    
 }
 
 .kader:hover{
@@ -733,18 +746,53 @@ footer{
 }
 
 .contentMoodboard{
-display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
+background-color: red;
 }
 
 .contentMoodboard img{
 
 }
+.fotonieuwmoodboard{
+}
 
+
+
+.fotocontainer{
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    gap: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 100%;
+    height: 300px;
+
+}
+
+/* .fotocontainer img{
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+    width: 350px;
+    margin: 20px;
+} */
+
+.moodboard1{
+    width: 350px; /* Pas de breedte van elke afbeelding aan */
+    height: auto; /* Houd de proporties */
+    padding-left: 20px;
+
+}
+
+/* .moodboard2{
+    width: 300px;
+    margin: 20px;
+
+} */
 .inhoud{
     display: flex;
-    background-color: #ddd;
     flex-direction: row;
 }
 
@@ -761,8 +809,8 @@ align-items: center;
 }
 
 .fotobrandguide{
-    height: 250px;
-    margin-left: 20px;
+    height: 250px !important;
+    margin-left: 20px  !important;
 }
 
 /* slideshow */

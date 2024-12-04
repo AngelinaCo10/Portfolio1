@@ -3,7 +3,6 @@
     font-size: 24px;
     font-family: 'Unna';
     color: white;
-    padding-left: 20px;
     padding-left: 30px;
     padding-top: 30px;
 
@@ -31,6 +30,11 @@
 a{
     text-decoration: none;
     color: white;
+}
+
+a:hover{
+    color: #8e2de2;
+
 }
 
 li ::marker{
@@ -83,7 +87,7 @@ li ::marker{
 }
  
 ::-webkit-scrollbar-thumb{
-    background-color: #102b53;
+    background-color: #A68CEE;
 }
                 
 
@@ -134,7 +138,7 @@ body * {
     position: sticky;
     z-index: 99999;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(180deg, transparent 0%, #A68CEE 200%);
+    /* background: linear-gradient(180deg, transparent 0%, #ee8cda 200%); */
 
 }
 
@@ -750,6 +754,7 @@ footer{
 /* .list a:hover{
     color: #4400ff;
 } */
+
 
 .listFooter{
     background-color: none;
