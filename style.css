@@ -62,8 +62,11 @@ body{
     overflow-x: hidden;
     margin: 0 0;
     /* cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto; */
-    cursor: url(https://cdn.custom-cursor.com/db/15052/starter-northern-lights-cursor.png), auto;
+    cursor: url(https://cdn.custom-cursor.com/db/15052/starter-northern-lights-cursor.png),  auto;
 }
+
+
+
 
 a, button{
     cursor: url(https://cdn.custom-cursor.com/db/15051/starter-northern-lights-pointer.png) 16 16, pointer;
@@ -369,11 +372,9 @@ tbody tr:last-child {
     padding: 20px;
     padding-left: 40px;
     color: black;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-bottom: 1px solid;
-
-    
+    border-bottom: 1px solid;    
 }
 
 .flights__heading__title{
@@ -486,7 +487,6 @@ td:last-child {
 .mid{
     background-color: none;
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat de items onder elkaar komen */
     padding: 0 15%;   

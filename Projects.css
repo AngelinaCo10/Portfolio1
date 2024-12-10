@@ -20,6 +20,7 @@ img{
     padding-left: 30px;
     color: white;
     width: 60%;
+    padding-bottom: 30px;
 }
 
 .kader p{
@@ -99,6 +100,8 @@ body * {
     max-width: 100%;
     padding: 0 10%;
     margin-top: 70px;
+
+    
 }
 
 .header{
@@ -178,7 +181,7 @@ li a:hover{
     font-family: "Unna";
     font-size: 25px;
     display: block;
-    width: 210px;
+    width: 220px;
     line-height: 65px;
     padding-left: 10px;
 
@@ -223,11 +226,9 @@ li a:hover{
     display: block;
     border: 1px solid #ffffff;
     padding-right: 0;
+}
 
-
-  }
-
-  .dropdown-content a:hover {
+.dropdown-content a:hover {
     background: rgba(237, 237, 237, 0.44);
     
 
@@ -300,6 +301,7 @@ li a:hover{
     cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto;
 }
 
+
 .mid {
     display: inline-block; /* Zorgt ervoor dat de .mid div naast de afbeelding komt */
     vertical-align: top; /* Zorgt ervoor dat de tekst verticaal uitgelijnd is boven de afbeelding */
@@ -315,7 +317,10 @@ li a:hover{
     margin-top: 150px;
 }
 
-
+.zekurlogo{
+    width: 400px;
+    height: 400px;
+}
 
 .venemanlogo {
     height: auto;
@@ -748,7 +753,7 @@ footer{
 .contentMoodboard{
 flex-direction: row;
 align-items: center;
-background-color: red;
+/* background-color: red; */
 }
 
 .contentMoodboard img{
@@ -866,12 +871,71 @@ background-color: red;
     left: 10px;
 }
 
-.next {
-    right: 10px;
+.navigationContainerff{
+    display: flex;
+    /* justify-content: flex-end; */
+    padding: 0 10%;
+    justify-content: end
 }
 
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+
+.navigationContainer{
+    display: flex;
+    /* justify-content: flex-end; */
+    padding: 0 10%;
+    justify-content: space-between;
+}
+
+.prevContainerOtherprojects{
+    display: flex;
+    padding: 0 10%;
+
+}
+
+.nextbtn {
+    color: black;
+    background-color: #aaf0d1;
+    border-style: none;
+    border-radius: 0.325rem;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Unna";
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    user-select: none;
+    justify-self: end;
+    cursor: pointer;
+    width: 165px;
+    height: 40px;
+
+}
+
+.prevbtn {
+    color: black;
+    background-color: #aaf0d1;
+    border-style: none;
+    border-radius: 0.325rem;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Unna";
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    user-select: none;
+    cursor: pointer;
+    width: 165px;
+    height: 40px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.prevbtn:hover, .nextbtn:hover {
+    background-color: #cdffe8;
 }
 
 /* Paginering */
@@ -895,3 +959,6 @@ background-color: red;
 .dot.active {
     background-color: #717171;
 }
+
+
+.

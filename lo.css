@@ -25,6 +25,7 @@
     font-family: "Unna";
     font-weight: lighter;
     color: white;
+    list-style-type: disc;
 }
 
 a{
@@ -37,7 +38,7 @@ a:hover{
 
 }
 
-li ::marker{
+li::marker{
     color: #8e2de2;
 }
 
@@ -528,6 +529,7 @@ hr{
     text-decoration: none;
     text-decoration-line: none;
     list-style-type: disc;
+    color: WHITE;
 }
 
 .naamproject{   
