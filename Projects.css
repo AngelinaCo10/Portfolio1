@@ -13,6 +13,20 @@ img{
 
 }
 
+.kader h4{
+    font-weight: bold;
+    color: white;
+    font-family: "Unna";
+    padding-left: 30px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+a{
+    color: white;
+    text-decoration-line: white;
+}
+
 .kader h3, .reflectie h3{
     font-size: 1rem;
     font-family: "Unna";
@@ -20,7 +34,7 @@ img{
     padding-left: 30px;
     color: white;
     width: 60%;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .kader p{
@@ -764,18 +778,27 @@ align-items: center;
 
 
 
-.fotocontainer{
+.fotocontainer {
     display: flex;
     justify-content: space-evenly;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 10px;
     margin-right: 10px;
     vertical-align: middle;
     width: 100%;
-    height: 300px;
+    height: 200px;
+}
+.fotocontainer1 {
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 100%;
+    height: 280px;
 
 }
-
 /* .fotocontainer img{
     width: 100%; 
     height: auto; 
@@ -814,7 +837,17 @@ align-items: center;
 }
 
 .fotobrandguide{
-    height: 250px !important;
+    height: 180px !important;
+    margin-left: 20px  !important;
+}
+
+.fotologo{
+    height: 150px !important;
+    margin-left: 20px  !important;
+
+}
+.fotomoodboard{
+    height: 230px !important;
     margin-left: 20px  !important;
 }
 
@@ -893,7 +926,7 @@ align-items: center;
 }
 
 .nextbtn {
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: #aaf0d1;
     border-style: none;
     border-radius: 0.325rem;

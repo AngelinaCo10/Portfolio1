@@ -33,7 +33,9 @@
 
 
  
-    
+h1{
+    /* cursor: pointer; */
+}    
 
 
   html{
@@ -157,7 +159,7 @@ li a:hover{
     font-family: "Unna";
     font-size: 25px;
     display: block;
-    width: 210px;
+    width: 220px;
     line-height: 65px;
     padding-left: 10px;
 
@@ -458,11 +460,12 @@ h3{
 
 .destination{
     color: #FFFFFF;
-    font-size: large;
+    font-size: 20px;
 }
 
 .status.done {
     color: #ffffff;
+    font-size: 18px;
 }
 
 .status.ongoing {
@@ -510,6 +513,10 @@ td:last-child {
     margin-top: 0;
     font-family: 'Unna';
     font-weight: lighter;
+}
+
+.easter{
+width: 65%;
 }
 
 hr{
@@ -670,6 +677,7 @@ body {
 
   a{
     text-decoration: none;
+    z-index: 10;
   }
   .section_cards{
     display: flex;
