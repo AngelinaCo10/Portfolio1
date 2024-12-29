@@ -1,17 +1,4 @@
 # Angelina Coffie
-
-## Voeg uw bestanden toe
-
-- [ ] [Maak](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) of [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) bestanden
-- [ ] [Voeg bestanden toe via de opdrachtregel](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) of push een bestaande Git-repository met de volgende opdracht:
-
-```
-cd existing_repo
-git remote add origin https://git.fhict.nl/I537166/angelina.git
-git branch -M main
-git push -uf origin main
-```
-
 ## Naam
 Portfolio Website semester 2
 
