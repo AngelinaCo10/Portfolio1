@@ -38,3 +38,5 @@ function currentSlide(n) {
 
 // Initialiseer de slideshow
 showSlides(slideIndex);
+
+

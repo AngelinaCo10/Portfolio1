@@ -1,11 +1,20 @@
 body{
-    background-color: rgb(226, 225, 253);
+    background-color: rgba(15, 8, 202, 0.588);
     margin: 0;
     padding: 0;
+    cursor: url(images/kleinecursor.png), auto;
+
+}
+
+a, button{
+    cursor: url(images/kleinepointer.png), pointer;
 
 }
 
 
+audio{
+    display: none;
+}
 .cup{
     top: 50%;
     left: 50%;
