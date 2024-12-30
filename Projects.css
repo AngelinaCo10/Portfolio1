@@ -1,5 +1,9 @@
 img{
     height: 250px;
+    /* margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 16px; */
+
 }
 
 
@@ -43,6 +47,21 @@ a{
     font-weight: bold;
     color: white;
     width: 50%;
+}
+
+.fotoredesign{
+    height: 500px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+}
+
+
+.foto{
+    height: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 16px;
 }
 
 /* For desktop: */
@@ -206,13 +225,13 @@ li a:hover{
 .navmenu_lo:hover{
     color: white;
     background: #FFC5D3;
-    font-weight: bold;
+    /* font-weight: bold; */
 
 
 }
 
 .navmenu:hover, .dropbtn:hover{
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     background: #FFC5D3;
 
@@ -245,13 +264,16 @@ li a:hover{
 }
 
 .dropdown-content a:hover {
-    background: rgba(237, 237, 237, 0.44);
-    
+    /* background: rgba(237, 237, 237, 0.44); */
+    background-color: #ffffff;
+    font-weight: bold;
+    color: black;
+
 
 }
 
 .dropdown:hover .dropbtn{
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     background: #FFC5D3;
 }
@@ -335,6 +357,8 @@ a:hover{
     height: auto;
     margin-left: 20px; /* Ruimte tussen tekst en afbeelding */
     margin-top: 150px;
+    
+
 }
 
 .zekurlogo{
@@ -545,7 +569,6 @@ body {
     background-color: #aaf0d1;
     color: rgb(0, 0, 0);
     border: none;
-    padding: 10px 15px;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -557,6 +580,10 @@ body {
 #scrollToTopBtn:hover {
     background-color: #FFC5D3;
     transform: scale(1.1);
+}
+
+.topbtn{
+    height: auto;
 }
 
 
@@ -848,6 +875,11 @@ align-items: center;
     height: 280px;
 
 }
+
+.gif{
+    height: auto;
+    width: 100%;
+}
 /* .fotocontainer img{
     width: 100%; 
     height: auto; 
@@ -922,13 +954,13 @@ align-items: center;
     justify-content: center;
 }
 
-.slide img {
-    border-radius: 5px; /* Optioneel: afgeronde hoeken */
+/* .slide img {
+    border-radius: 5px; Optioneel: afgeronde hoeken
     justify-self: center;
     align-self: center;
     padding-left: 40px;
     margin-left: 40px;
-}
+} */
 
 /* Navigatieknoppen */
 .prev, .next {
@@ -975,7 +1007,7 @@ align-items: center;
 }
 
 .nextbtn {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: #aaf0d1;
     border-style: none;
     border-radius: 0.325rem;
@@ -1018,6 +1050,7 @@ align-items: center;
 
 .prevbtn:hover, .nextbtn:hover {
     background-color: #cdffe8;
+        transition: all .2s linear;
 }
 
 /* Paginering */

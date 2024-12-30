@@ -122,15 +122,15 @@ body * {
     height: 60px;
     width: 60px;
     background-color: #aaf0d1;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: none;
-    padding: 10px 15px;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     font-size: 16px;
     transition: opacity 0.3s, transform 0.3s;
     font-weight: bold;
+
 }
 
 #scrollToTopBtn:hover {
@@ -138,6 +138,9 @@ body * {
     transform: scale(1.1);
 }
 
+.topbtn{
+    height: auto;
+}
 
 .content{
     max-height: 100%;
@@ -272,7 +275,10 @@ li a:hover{
   }
 
   .dropdown-content a:hover {
-    background: rgba(237, 237, 237, 0.44);
+    /* background: rgba(237, 237, 237, 0.44); */
+    font-weight: bold;
+    background-color: #ffffff;
+    color: black;
     
 
 }

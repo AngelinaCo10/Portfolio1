@@ -41,7 +41,6 @@
     background-color: #aaf0d1;
     color: rgb(0, 0, 0);
     border: none;
-    padding: 10px 15px;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -55,6 +54,9 @@
     transform: scale(1.1);
 }
 
+.topbtn{
+    height: auto;
+}
 
  
 h1{
@@ -192,13 +194,13 @@ li a:hover{
 .navmenu_lo:hover{
     color: white;
     background: #FFC5D3;
-    font-weight: bold;
+    /* font-weight: bold; */
 
 
 }
 
 .navmenu:hover, .dropbtn:hover{
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     background: #FFC5D3;
 
@@ -240,13 +242,15 @@ li a:hover{
   }
 
   .dropdown-content a:hover {
-    background: rgba(237, 237, 237, 0.44);
-    
+    /* background: rgba(237, 237, 237, 0.44); */
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
 
 }
 
 .dropdown:hover .dropbtn{
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     background: #FFC5D3;
 }
@@ -372,7 +376,7 @@ tbody tr:last-child {
 
 }
 
-.flights{
+#flights{
     display: flex;
     justify-items: center;
     align-items: center;
@@ -383,6 +387,7 @@ tbody tr:last-child {
     border-radius: 0 0 20px 20px;
     padding-top:none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
 
 
 
@@ -486,12 +491,12 @@ h3{
 
 .destination{
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .status.done {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .status.ongoing {
