@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -129,7 +128,7 @@ body * {
     justify-content: center;
     align-items:center;
     width: 100%;
-    padding: 0 15%;   
+    padding: 0 10%;   
     justify-content: space-between;
     position: sticky;
     z-index: 99999;
@@ -519,7 +518,7 @@ td:last-child {
     width: 100%;
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat de items onder elkaar komen */
-    padding: 0 15%;   
+    padding: 0 10%;   
 }
 
 .titel-about-me{

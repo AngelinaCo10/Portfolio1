@@ -142,7 +142,7 @@ body * {
 .content{
     max-height: 100%;
     max-width: 100%;
-    padding: 0 15%;
+    padding: 0 10%;
     margin-top: 70px;
 }
 
@@ -168,7 +168,7 @@ body * {
     justify-content: center;
     align-items:center;
     width: 100%;
-    padding: 0 15%;   
+    padding: 0 10%;   
     justify-content: space-between;
     position: sticky;
     z-index: 99999;
@@ -446,7 +446,7 @@ tbody tr:last-child {
     display: inline-block; /* Zorgt ervoor dat de .mid div naast de afbeelding komt */
     vertical-align: top; /* Zorgt ervoor dat de tekst verticaal uitgelijnd is boven de afbeelding */
     width: 60%; /* Geeft de tekst een breedte van 60% */
-    padding: 0 15%;
+    padding: 0 10%;
 }
 
 .rectangle-div img {

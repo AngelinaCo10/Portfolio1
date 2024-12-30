@@ -309,10 +309,14 @@ li a:hover{
 
 
 ---
-
+a{
+    color: white;
+}
+a:hover{
+    color: #000000;
+}
 .rectangle-div {
     width: 100%;
-    background-color: #ffc5d3;
     padding-left: 5rem;
     cursor: url(https://cdn.custom-cursor.com/db/19738/glitter-custom-cursor-logo-glitter-cursor.png), auto;
 }
