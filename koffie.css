@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
     cursor: url(images/kleinecursor.png), auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -115,13 +118,24 @@ ul li:nth-child(6){
 
 h1{
     position: absolute;
+    color: #ffffff;
+    z-index: 1;
+    font-size: 45px;
+    font-family: 'Unna';
+    margin-top: 170px;
+}
+
+h2{
+    position: absolute;
     color: #f6bfff;
-    /* border: 1px solid;  */
     z-index: 1;
     font-size: 45px;
     font-family: 'TAN - MON CHERI';
 }
 
+a{
+    color: #f6bfff;
+}
 .plate{
     height: 30px;
     width: 300px;

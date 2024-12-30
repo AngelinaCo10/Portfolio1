@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -209,6 +210,7 @@ li a:hover{
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: -500;
   }
   img{
 
@@ -540,8 +542,9 @@ td:last-child {
     font-weight: lighter;
 }
 
-.easter{
-width: 65%;
+.easter {
+    width: 65%;
+    color: white;
 }
 
 hr{
