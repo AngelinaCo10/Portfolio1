@@ -37,8 +37,12 @@ a{
     font-weight: lighter;
     padding-left: 30px;
     color: white;
-    width: 60%;
+    /* width: 60%; */
     padding-bottom: 15px;
+}
+
+.intro{
+width: 100% !important;
 }
 
 .kader p{
@@ -878,7 +882,7 @@ align-items: center;
 
 .gif{
     height: auto;
-    width: 100%;
+    /* width: 100%; */
 }
 /* .fotocontainer img{
     width: 100%; 
@@ -905,6 +909,15 @@ align-items: center;
     flex-direction: row;
 }
 
+.alles{
+    display: flex;
+}
+
+.introfoto{
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+}
 
 .reflectie:hover{
     background-color: rgba(35, 189, 192, 0.6);

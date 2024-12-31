@@ -463,6 +463,10 @@ tbody tr:last-child {
     margin-top: 150px;
 }
 
+.fotocode{
+    padding: 0 30px;
+}
+
 .venemanlogo {
     height: auto;
 }
@@ -731,8 +735,9 @@ footer{
     background-color: none;
     display: flex;
     height: 212px;
-    margin-left: 250px;
-    margin-right: 200px;
+    /* margin-left: 250px;
+    margin-right: 200px; */
+    padding: 30px;
 
 }
 
