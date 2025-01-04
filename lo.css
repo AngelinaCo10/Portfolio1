@@ -126,7 +126,6 @@ body * {
     border: none;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
     font-size: 16px;
     transition: opacity 0.3s, transform 0.3s;
     font-weight: bold;
@@ -137,7 +136,6 @@ body * {
     background-color: #FFC5D3;
     transform: scale(1.1);
 }
-
 .topbtn{
     height: 50px;
 }
@@ -180,6 +178,12 @@ body * {
 
 }
 
+.logo{
+    position: fixed;
+    top: 1px;
+    left: 20px;
+    z-index: 99999;
+}
 
 /*.logo, .home, .navabout-me, .projects, .learning-outcomes{
     color: white;

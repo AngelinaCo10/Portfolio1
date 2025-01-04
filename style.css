@@ -120,7 +120,7 @@ body * {
     z-index: 99999;
     padding: 0;
     max-width: 100%;
-    
+    display: flex;
 }
 
 
@@ -137,6 +137,12 @@ body * {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
+.logo{
+    position: fixed;
+    top: 1px;
+    left: 20px;
+    z-index: 99999;
+}
 
 /*.logo, .home, .navabout-me, .projects, .learning-outcomes{
     color: white;
