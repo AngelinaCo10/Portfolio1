@@ -27,7 +27,7 @@ img{
 }
 
 a{
-    color: white;
+    color: #aaf0d1;
     text-decoration-line: white;
 }
 
@@ -37,7 +37,7 @@ a{
     font-weight: lighter;
     padding-left: 30px;
     color: white;
-    /* width: 60%; */
+    width: 90%;
     padding-bottom: 15px;
 }
 
