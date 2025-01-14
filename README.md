@@ -46,7 +46,7 @@ Branding.html
 
 Fix-that-UX.html
 
-Myotherprojects.html          >  CSS: Projects.css
+Myportfolio.html          >  CSS: Projects.css
 
 
 <br>
