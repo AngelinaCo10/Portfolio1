@@ -23,7 +23,7 @@ img{
     font-family: "Unna";
     padding-left: 30px;
     margin: 0;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 a{
@@ -117,6 +117,7 @@ width: 100% !important;
     background-color: #A68CEE;
 }
                 
+/* sprint x */
 
 body{
     /*background: plum;*/
@@ -128,6 +129,35 @@ body{
     cursor: url(images/kleinecursor.png), auto;
 
 
+}
+
+.logocontainer{
+    height: auto;
+    width: 100%; 
+    display: flex;   
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.stylecontainer{
+    height: auto;
+    width: 100%; 
+    display: flex;   
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.moodboardcontainer img{
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.stylecontainer img{
+    border-radius: 20px;
+}
+
+.nieuwlogo{
+    margin-top: 40px;
 }
 
 body * {
@@ -368,8 +398,6 @@ a:hover{
     height: auto;
     margin-left: 20px; /* Ruimte tussen tekst en afbeelding */
     margin-top: 150px;
-    
-
 }
 
 .zekurlogo{
@@ -840,9 +868,9 @@ footer{
     font-weight: lighter;   
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     box-sizing: border-box; 
-
-    
 }
+
+
 
 .kader:hover{
     /* background-color: rgba(255, 197, 214, 0.60); */

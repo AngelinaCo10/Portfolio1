@@ -1,0 +1,845 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.logo{
+    width: auto;
+    height: auto;
+
+
+}
+.nav{
+    background-color: #8edaff;
+    width: 100%;
+    height: 4rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    z-index: 1000;
+    position: absolute;
+    padding-left: 45px;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.navrechts{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+    width: 100%;
+    justify-items: end;
+    margin: 0 60px;
+}
+
+.fotobanner{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+
+}
+
+.divvroegkorting{
+    position: absolute;
+    top: 60px ;
+    text-align: left;
+    /* background-color: aliceblue; */
+    width: 500px;
+    height: 285px;
+    margin-left: 200px;
+}
+
+.divvroegkorting h2 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Gliker;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.divvroegkorting h1 {
+    color: #E899FF;
+
+    margin-left: 100px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF;
+    font-family: Gliker;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    rotate: -7.132deg;
+}
+
+.vroegbtn{
+    width: 15.8125rem;
+    height: 4.375rem;
+    flex-shrink: 0;    
+    border-radius: 0.625rem;
+    background: #E899FF;
+    box-shadow: 0px -3px 7.9px 0px rgba(0, 0, 0, 0.25) inset;
+    border: none;
+    font-family: Gliker;
+    color: #FFF;
+    -webkit-text-stroke-color: #c60cff;
+    -webkit-text-stroke-width: 1px;
+    border: 2px solid #ffffff;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.divmaand{
+    position: absolute;
+    top: 60px ;
+    right: 10px;
+    text-align: left;
+    /* background-color: aliceblue; */
+    width: 450px;
+    height: 285px;
+    margin-right: 200px;
+}
+
+.divmaand h2 {
+    color: #53A4FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Gliker;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF;
+
+}
+
+.divmaand h1 {
+    color: #99FFC7;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF;
+    font-family: Gliker;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    rotate: -7.132deg;
+}
+
+.maandbtn{
+    width: 10rem;
+    height: 3rem;
+    flex-shrink: 0;    
+    border-radius: 0.625rem;
+    background: #53A4FF;
+    box-shadow: 0px -3px 7.9px 0px rgba(0, 0, 0, 0.25) inset;
+    border: none;
+    font-family: Gliker;
+    color: #FFF;
+    -webkit-text-stroke-color: #0078FF;
+    -webkit-text-stroke-width: 1px;
+    border: 2px solid #ffffff;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+
+.zoekbalk{
+width: 290px;
+height: 40px;
+border-radius: 5px;
+border: 1px solid #5b5a5a;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.translatebtn{
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+option{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+option:hover{
+    background-color: #8edaff;
+}
+select{
+    background-color: #8edaff;
+    border-color: #8edaff;
+    border-color: #8edaff;
+    color: #ffffff;
+    font-size: 20px;
+
+
+}
+
+.countdowncontainer{
+    width: 100%;
+    height: 22.5rem;
+    background: rgba(254, 255, 179, 0.29);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.account-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.extradiv{
+    /* background-color: #4e3257; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.launchtime{
+    display: flex;
+    width: 500px;
+    /* background-color: #8edaff; */
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.launchtime div{
+    flex-basis: 100px;
+}
+
+.launchtime div p{
+    font-size: 50px;
+    color: #8edaff;
+}
+
+.launchtime-item{
+    background-color: #ecf9ff;
+    border: 4px solid #8edaff;
+    border-radius: 15px;
+    font-family: "gliker";
+    
+}
+
+span{
+    color: #8edaff;
+}
+
+.bannertext{
+    color: #8EDAFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+    font-family: Gliker;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 2rem;
+}
+
+.strandfoto{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 8px solid #8edaff;
+    position: absolute;
+    right: 60px;
+    top: 415px;
+}
+
+/* emojies */
+
+.zonemoji{
+    position: absolute;
+    width: 700px;
+    height: 440px;
+    left: -250px;
+    top: 240px;
+}
+
+.emmerschepemoji{
+    position: absolute;
+    width: 700px;
+    height: 440px;
+    left: 0px;
+    top: 400px;
+
+}
+
+.schelpemoji{
+    position: absolute;
+    width: 400px;
+    height: 240px;
+    left: 290px;
+    top: 390px;
+}
+
+.strandbalemoji{
+    position: absolute;
+    width: 450px;
+    height: 290px;
+    right: 200px;
+    top: 250px;
+}
+
+.zeesteremoji{
+    position: absolute;
+    width: 700px;
+    height: 440px;
+    right: -290px;
+    top: 480px;
+}
+
+.divoverairline{
+    background-color: #8edaff;
+    width: 100%;
+    min-height: 550px;
+    padding: 60px 60px 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texth1{
+    position: absolute;
+    left: 10px;
+    top: 110%;
+    font-family: "gliker";
+    color: #8EDAFF;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+    transform: rotate(-5.132deg);
+    font-size: 50px;
+}
+
+.texth2{
+    position: absolute;
+    left: 10px;
+    top: 116%;
+    font-family: "gliker";
+    color: #E899FF;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffff;
+    font-size: 20px;
+    transform: rotate(-5.132deg);
+
+}
+
+.xlwachtergrond{
+background-color: #ffffff;
+height: 425px;
+width: 50%;
+border-radius: 20px;
+padding: 30px;
+
+}
+
+.swachtergrond{
+    background-color: #ffffff;
+    height: 150px;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 70px;
+    text-align: left;
+    padding: 15px;
+
+}
+
+.rechtsoverairline {
+    /* background-color: blueviolet; */
+    height: 400px;
+    width: 50%;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-content: space-between; 
+
+}
+.rechtsoverairline img{
+    height: 250px;
+    width: 90%;
+    background-color: aqua;
+    margin-left: 70px;
+    border: 8px solid #FEFFB3;
+    border-radius: 20px;
+
+}
+
+.xlwachtergrond h2, .swachtergrond h2{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.xlwachtergrond p, .swachtergrond p{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+
+}
+
+.bestemmingencontainer{
+background-color: #ffffff;
+height: 620px;
+width: 100%;
+position: relative; /* Maakt positionering van knoppen binnen deze container mogelijk */
+}
+
+
+.slipper{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    z-index: 1000;
+    left: 0px;
+    top: 400px;
+
+}
+.zonnebril{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    z-index: 1000;
+    left: -10px;
+    top: -40px;
+    rotate: -30deg;
+
+
+}
+
+.schelp2{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    z-index: 1000;
+    right: -30px;
+    top: 450px;
+
+
+}
+.emmerschep2{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    right: -100px;
+    top: -50px;
+
+}
+
+
+.titleoverairline{
+    font-family: "gliker";
+    font-size: 30px;
+    color: #e899ff;
+    display: inline-block; 
+    border-bottom: 2px solid #e899ff; 
+    margin-top: 30px;
+}
+
+.slideshowcontainer{
+    /* background-color: blueviolet; */
+    height: 500px;
+    width: 1020px;
+    display: flex;
+    overflow: hidden; /* Verberg inhoud buiten de container */
+    position: relative; /* Maakt positionering van de knoppen binnen de container mogelijk */
+    margin-left: 240px;
+}
+
+.fotoslideshow{
+    height: 300px;
+    width: 300px;
+    border-radius:  20px;
+    border: 8px solid #8edaff;
+}
+
+.fotoslideshow2{
+    height: 300px;
+    width: 300px;
+    border-radius:  20px;
+    border: 8px solid #FEFFB3;
+}
+
+.fotoslideshow3{
+    height: 300px;
+    width: 300px;
+    border-radius:  20px;
+    border: 8px solid #e899ff;
+}
+
+.fotoslideshow4{
+    height: 300px;
+    width: 300px;
+    border-radius:  20px;
+    border: 8px solid #99FFC7;
+}
+
+
+
+
+.fotocontainer{
+    /* background-color: pink; */
+    width: 200px;
+    height: 500x;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex: 0 0 30%; /* Zorg dat elke slide 1/3 van de containerbreedte inneemt */
+    box-sizing: border-box;
+    /* padding: 10px; */
+    /* Ruimte rondom de afbeeldingen */
+
+}
+
+.h1normal{
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3c3c3c;
+    font-family: "gliker";
+    width: 300px;
+    position: relative;
+    z-index: 1000;
+    top: 20px; /* Adjust this value as needed to position the text halfway over the image */
+}
+
+.h1lower{
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3c3c3c;
+    font-family: "gliker";
+    width: 300px;
+    position: relative;
+    z-index: 1000;
+    top: 25px; /* Adjust this value as needed to position the text halfway over the image */
+}
+
+.btn1{
+    height: 50px;
+    width: 300px;
+    background-color: #8EDAFF;
+    border-radius: 10px;
+    box-shadow: 0px -3px 7.9px 0px rgba(0, 0, 0, 0.25) inset;
+
+    font-family: "gliker";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #53A4FF;
+    cursor: pointer;
+
+}
+
+.btn2{
+    height: 50px;
+    width: 300px;
+    background-color: #FEFFB3;
+    border-radius: 10px;
+    box-shadow: 0px -3px 7.9px 0px rgba(0, 0, 0, 0.25) inset;
+
+    font-family: "gliker";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #D5D658;
+    cursor: pointer;
+
+}
+
+.btn3{
+    height: 50px;
+    width: 300px;
+    background-color: #e899ff;
+    border-radius: 10px;
+    box-shadow: 0px -3px 7.9px 0px rgba(0, 0, 0, 0.25) inset;
+    font-family: "gliker";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #c60cff;
+    cursor: pointer;
+}
+
+.btn4{
+    height: 50px;
+    width: 300px;
+    background-color: #99FFC7;
+    border-radius: 10px;
+    box-shadow: 0px -3px 7.9px 0px rgba(0, 0, 0, 0.25) inset;
+    font-family: "gliker";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #00FF73;
+    cursor: pointer;
+}
+
+
+/* .btn1 h2, .btn2 h2, .btn3 h2, .btn4 h2{
+    font-family: "gliker";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #53A4FF;
+} */
+
+.btn2 h2{
+    font-family: "gliker";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #D5D658;
+}
+
+.btn3 h2{
+    font-family: "gliker";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #c60cff;
+
+}
+
+.btn4 h2{
+    font-family: "gliker";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #00FF73;
+
+}
+
+.title{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+    text-align: left;
+}
+
+
+.ondertekst{
+    font-family: "dm sans";
+    text-align: left;
+    width: 300px;
+}
+
+.divtext{
+/* background-color: yellow; */
+    width: 300px;
+}
+
+.slideswrapper{
+    display: flex;
+    transition: transform 0.5s ease;
+    width: calc(100% * 9 / 3); 
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E899FF;
+    box-shadow: 0px -3px 7.9px 0px rgba(0, 0, 0, 0.25) inset;
+    border: none;
+}
+#prev {
+    left: 100px;
+}
+
+#next {
+    right: 100px;
+}
+
+.nexticon{
+    height: 20px;   
+    width: 20px;
+    margin-left: 5px;
+}
+
+.previcon{
+    height: 20px;   
+    width: 20px;
+    margin-right: 5px;
+}
+
+.fradarcontainer{
+    background-color: #8edaff;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.flightradarfoto{
+    height: 250px;
+    width: auto;
+    border-radius:  20px;
+    border: 8px solid #FEFFB3;
+    margin-left: 60px;
+}
+
+.textcontainer{
+    height: 250px;
+    width: 600px;
+    /* background-color: #E899FF; */
+    margin-left: 60px;
+    align-items: start;
+    text-align: left;
+}
+
+.textcontainer h1{
+    font-family: "gliker";
+    font-size: 50px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #1C3E72;
+    text-align: left;
+}
+
+.textcontainer h2{
+    font-family: "DM sans";
+    font-size: 20px;
+    color: #ffffff;
+    width: 450px;
+}
+
+
+
+footer{
+    background-color: #1C3E72;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    padding: 30px;
+    /* justify-content: center; */
+}
+
+footer h1{
+    font-family: "Dm Sans";
+    color: #e899ff;
+    font-size: 20px;
+}
+
+footer p{
+    font-family: "Dm Sans";
+    color: #ffffff;
+    font-size: 16px;
+}
+
+footer h1:hover{
+    font-family: "Dm Sans";
+    color: #e899ff;
+    font-size: 20px;
+}
+
+footer p:hover{
+    font-family: "Dm Sans";
+    color:#8edaff ;
+    font-size: 16px;
+}
+
+
+.column1{
+    /* background-color: rgb(106, 106, 44); */
+    margin-left: 60px;
+}
+
+.column2{
+    /* background-color: beige; */
+    text-align: left;
+    margin-left: 60px;
+
+}
+
+.grotering{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ring{  
+    /* background-color: aqua; */
+    width: 200px;
+    display: flex;
+}
+
+.ring1{
+/* background-color: yellow; */
+height: 100%;
+width: 100%;
+}
+
+.ring2 {
+    /* background-color: rgb(63, 63, 44); */
+    height: 100%;
+    width: 100%;
+}
+
+.divvleugel{
+    background-color: #808689;
+}
+
+.vleugelfoto{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 10px;
+    top: 2265px;
+    margin-right: 60px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
