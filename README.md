@@ -17,13 +17,13 @@ Mijn portfolio bevat het volgende:
 
 ## Installatie
 1. Clone of download dit project met: https://github.com/AngelinaCo10/Portfolio1.git
-2. Have a modern browser (Chrome, Firedox, Avast Secure Browser).
-3. Open "Homepage.html" in the browser to view the website.
+2. gebruik een moderne browser (Chrome, Firedox, Avast Secure Browser).
+3. Open "Homepage.html" in de browser om de website te bekijken.
    
 ## Gebruik
 - Bezoek de live versie van de website op: https://i537166.hera.fontysict.net/homepage.html
 - Navigeer door de verschillende secties: Over mij, Projecten en Leeruitkomsten.
-- Klik op de linkjes om meer te zien van mijn ontwerpen (dit volgt nog).
+- Klik op de linkjes om meer te zien van mijn ontwerpen.
 
 ## Contact
 Als je contact wilt opnemen, kun je mij bereiken op mijn school email adres a.coffie@student.fontys.nl
@@ -46,7 +46,7 @@ Branding.html
 
 Fix-that-UX.html
 
-Myotherprojects.html          >  CSS: Projects.css
+Myportfolio.html          >  CSS: Projects.css
 
 
 <br>
