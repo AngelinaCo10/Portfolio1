@@ -3,12 +3,18 @@ img{
     /* margin-left: 30px;
     margin-bottom: 30px;
     border-radius: 16px; */
-
+    
 }
 
+.inspiratieimg{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    width: 100%;
+}
 
 .content h2{
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Unna';
     color: white;
     padding-left: 30px;
@@ -53,6 +59,10 @@ width: 100% !important;
     width: 50%;
 }
 
+.gifeasteregg{
+    border-radius: 20px;
+    max-width: 50%;
+}
 .fotoredesign{
     height: 500px;
     margin-left: 30px;
@@ -130,6 +140,15 @@ body{
 
 
 }
+
+.sprintfoto{
+    margin: none !important;
+    position: absolute;
+}
+/* .kader img{
+    width: 100%;
+    height: auto;
+} */
 
 .logocontainer{
     height: auto;
@@ -407,6 +426,10 @@ a:hover{
 
 .venemanlogo {
     height: auto;
+}
+
+.fotoportfolio{
+    border-radius: 20px;
 }
 
 .titel-about-me {
@@ -917,6 +940,7 @@ align-items: center;
 
 .gif{
     height: auto;
+    border-radius: 20px;
     /* width: 100%; */
 }
 /* .fotocontainer img{
@@ -952,6 +976,7 @@ align-items: center;
     margin: 20px;
     height: 250px;
     width: 250px;
+    border-radius: 20px;
 }
 
 .reflectie:hover{
