@@ -17,11 +17,11 @@ Mijn portfolio bevat het volgende:
 
 ## Installatie
 1. Clone of download dit project met: https://github.com/AngelinaCo10/Portfolio1.git
-2. gebruik een moderne browser (Chrome, Firedox, Avast Secure Browser).
+2. gebruik een moderne browser (Firedox, Avast Secure Browser). Geen chrome, want bij PDF linkjes scrolt hij niet naar de juiste pagina, wanneer je op de link klikt.
 3. Open "Homepage.html" in de browser om de website te bekijken.
    
 ## Gebruik
-- Bezoek de live versie van de website op: https://i537166.hera.fontysict.net/homepage.html
+- Bezoek de live versie van de website op: www.angelinaco.nl. Download zip-bestand om Sprint X website te kunnen zien.
 - Navigeer door de verschillende secties: Over mij, Projecten en Leeruitkomsten.
 - Klik op de linkjes om meer te zien van mijn ontwerpen.
 
@@ -46,7 +46,16 @@ Branding.html
 
 Fix-that-UX.html
 
+Sprintx.html
+
+MediaDev.html
+
 Myportfolio.html          >  CSS: Projects.css
+
+<br><br>
+
+De css voor koffie.html is koffie.css
+HTML: koffie.html > koffie.css
 
 
 <br>
